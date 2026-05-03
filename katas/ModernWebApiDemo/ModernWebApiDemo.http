@@ -1,0 +1,6 @@
+@ModernWebApiDemo_HostAddress = http://localhost:5193
+
+GET {{ModernWebApiDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
