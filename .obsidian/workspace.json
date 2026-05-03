@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7954a9e9e02a16a3",
+        "id": "50a333fde6d1fe65",
         "type": "tabs",
         "children": [
           {
-            "id": "f3e4a8c58dff6dcf",
+            "id": "166c2a5e935bb761",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Alte Notizen/Wichtige Inhalte.md",
+                "file": "Notizen/Ablauf.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Wichtige Inhalte"
+              "title": "Ablauf"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "Resources/code/skills/domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks for domain"
             }
           },
           {
@@ -164,13 +164,23 @@
               "icon": "lucide-list",
               "title": "Outline of Welcome"
             }
+          },
+          {
+            "id": "83b232ce85c7e90f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 382.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,52 +197,53 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "f3e4a8c58dff6dcf",
+  "active": "166c2a5e935bb761",
   "lastOpenFiles": [
+    "katas/LensForge.slnx",
+    "katas/katas.slnx",
+    "katas/LensForge.Shared/obj/LensForge.Shared.csproj.nuget.dgspec.json",
+    "katas/LensForge.Shared/obj/367c20e2-66b8-46d6-98c3-bbb90f57602f.tmp",
+    "katas/LensForge.Shared/obj/project.nuget.cache",
+    "katas/LensForge.Shared/obj/95768113-b678-4faa-9f3c-0a212d8cc239.tmp",
+    "katas/LensForge.Shared/obj/project.assets.json",
+    "katas/LensForge.Shared/obj/LensForge.Shared.csproj.nuget.g.targets",
+    "katas/LensForge.Shared/obj/LensForge.Shared.csproj.nuget.g.props",
+    "katas/LensForge.Shared/obj",
+    "katas/LensForge.Shared/LensForge.Shared.csproj",
+    "Resources/code/second try/katas/solutions/Kata.09.Strategy.solution.md",
+    "Resources/images/vocabulary.png",
+    "Resources/images/ChatGPT Image 3. Mai 2026, 13_52_45.png",
+    "Resources/images/ChatGPT Image 3. Mai 2026, 13_37_57.png",
+    "Resources/images/observer_pattern.png",
+    "Resources/images/ChatGPT Image 3. Mai 2026, 13_35_16.png",
+    "Resources/code/second try/src/Simulation.Rendering/bin/Debug/net10.0/assets/sprites/station_factory.png",
+    "Resources/code/second try/assets/sprites/station_factory.png",
+    "Resources/code/second try/assets/sprites/ChatGPT Image 3. Mai 2026, 13_11_27.png",
+    "Resources/code/second try/assets/sprites/prompts/station_factory.md",
+    "Resources/code/second try/src/Simulation.Rendering/bin/Debug/net10.0/assets/sprites/conveyor_tile_old.png",
+    "Resources/code/second try/src/Simulation.Rendering/bin/Debug/net10.0/assets/sprites/lens_finished.png",
+    "Notizen/Vorgehensweise.md",
+    "Notizen/Ablauf.md",
+    "Notizen/Wichtige Inhalte.md",
+    "Resources/diagrams/command.md",
+    "Resources/diagrams/abstract factory.md",
+    "Resources/diagrams/command modern.md",
+    "Resources/diagrams/adapter abstraction.md",
+    "Resources/diagrams/strategy.md",
+    "Resources/diagrams/singleton.md",
+    "Resources/diagrams/observer.md",
+    "Resources/diagrams/facade.md",
     "Resources/code/skills/domain.md",
-    "Alte Notizen/Wichtige Inhalte.md",
-    "Alte Notizen/Ablauf.md",
-    "Resources/code/skills/New Text Document.txt",
-    "CLAUDE.md",
-    "Resources/code/workspace/artifacts/tests/TASK-001-test-report.md",
-    "Resources/code/workspace/artifacts/tests",
-    "Resources/code/CLAUDE.md",
-    "Resources/code/workspace/artifacts/specs/2026-04-22-cli-adder.md",
-    "Resources/code/workspace/artifacts/specs",
-    "Resources/code/workspace/sprints/sprint-template.yaml",
-    "Resources/code/workspace/sprints",
-    "Resources/code/workspace/retros",
-    "Resources/code/workspace/in_progress",
-    "Resources/code/workspace/done/TASK-001-cli-adder.yaml",
-    "Resources/code/workspace/done",
-    "Resources/code/workspace/backlog",
-    "Resources/code/workspace/artifacts/code/cli-adder/REVIEW.md",
-    "Resources/code/workspace/artifacts/adr/2026-04-22-cli-adder-architecture.md",
-    "Resources/code/memory/preferences.md",
-    "Resources/code/memory/patterns.md",
-    "Resources/code/memory/decisions.md",
-    "image.png",
-    "Resources/images/refactoring_guru.png",
-    "Resources/images/logo-new-2x.png",
-    "Alte Notizen/Vorgehensweise.md",
-    "Start.md",
-    "Schulung/Presentation/Schulung.md",
-    "Resources/images/pattern_categories.png",
-    "Resources/images/ChatGPT Image 23. Apr. 2026, 18_37_57.png",
-    "Resources/images/ChatGPT Image 23. Apr. 2026, 18_35_08.png",
-    "Resources/images/schubkarre_pattern.png",
-    "Resources/images/complex_machine.png",
-    "Resources/images/ChatGPT Image 23. Apr. 2026, 17_06_27.png",
-    "Resources/images/einheitlichkeit_pattern.png",
-    "Schulung/Katas/README.md",
-    "TODO.md",
-    "Schulung/Praesentation.md",
-    "Schulung/GPT.md",
-    "Schulung/Rahmenbedingungen.md",
-    "Schulung/Zeitplan.md",
-    "Welcome.md",
-    "Schulung.md",
-    "adesso Unterlagen.md",
-    "Resources/Untitled.md"
+    "Resources/code/second try/docs/KATA_BRIEFING.md",
+    "Resources/code/second try/docs/ARCHITECTURE.md",
+    "Resources/code/second try/assets/sprites/prompts/machine_frame.md",
+    "Resources/code/second try/assets/sprites/prompts/icon_strategy_set.md",
+    "Resources/code/second try/assets/sprites/prompts/icon_command_queue.md",
+    "Resources/code/second try/assets/sprites/prompts/icon_warning.md",
+    "Resources/code/second try/assets/sprites/prompts/effect_scanline.md",
+    "Resources/code/second try/assets/sprites/prompts/effect_glow.md",
+    "Resources/code/second try/assets/sprites/prompts/effect_sparks.md",
+    "Resources/code/second try/assets/sprites/prompts/lens_rejected.md",
+    "Resources/code/second try/assets/sprites/prompts/lens_finished.md"
   ]
 }
