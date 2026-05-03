@@ -3,54 +3,63 @@
 ## Kontext
 
 Bevor LensForge fertige Linsen zum Versand bringt, werden sie verpackt. 
-Je nach Kunde unterscheidet sich, wie verpackt wird:
+Je nach Kundentyp gibt es drei Verpackungsarten:
 
-- **Endkunden** bekommen ihre Linsen in einem schlichten Pappkarton mit 
-  Standard-Schaumstoff-Polsterung.
-- **Optiker-Großkunden** bekommen die Linsen in einer Holzkiste mit 
-  Mehrfach-Polsterung — passend für den Versand mehrerer Linsen.
-- **Labore** bekommen die Linsen in einer sterilen Spezial-Box mit 
-  Inertgas-Atmosphäre.
+- **Endkunden** → Pappkarton mit Schaumstoff
+- **Optiker-Großkunden** → Holzkiste mit Mehrfach-Polsterung
+- **Labore** → Sterilbox mit Inertgas
 
-Das Modul hat die Aufgabe, für einen gegebenen Auftrag die richtige 
-Verpackung zu bauen und die Linse einzupacken. Die `ShippingPreparation` 
-ist die Klasse, die das aktuell macht.
+Die drei Verpackungsarten sind bereits implementiert. Sie liegen als 
+`PappkartonPackaging`, `HolzkistePackaging` und `SterilboxPackaging` 
+vor und implementieren alle das `IPackaging`-Interface. **Diese Dateien 
+sollt ihr nicht anfassen** — sie funktionieren.
 
-## Neue Anforderungen
+## Das Problem
 
-Bisher gibt es nur den Endkunden-Versand. Jetzt sollen die anderen 
-beiden Verpackungsarten dazukommen — und in absehbarer Zeit ist auch 
-ein **Express-Versand mit Sicherheits-Versiegelung** geplant.
+Die Logik *welche Verpackung für welchen Kunden* ist im Codebase 
+verstreut. Schaut euch `ShippingPreparation`, `OrderProcessor` und 
+`InvoiceWriter` an — alle drei treffen dieselbe Entscheidung 
+("Endkunde → Pappkarton") an unterschiedlichen Stellen, mit leicht 
+unterschiedlicher Logik. Das führt regelmäßig zu Bugs, wenn jemand 
+die Regeln in einer der drei Klassen ändert und die anderen vergisst.
 
-Das Verpacken selbst (also was *passiert*, wenn eine Linse in eine 
-Verpackung kommt) unterscheidet sich pro Verpackungsart leicht: 
-Polsterung, Versiegelung, Etikettierung sind unterschiedlich.
+## Neue Anforderung
+
+Demnächst kommen zwei weitere Kundentypen dazu:
+
+- **Express-Versand** → bekommt eine versiegelte Sicherheits-Box
+- **Großhandel international** → bekommt eine verstärkte Holzkiste 
+  mit Zollpapieren
+
+Außerdem hat das Produktteam angedeutet, dass irgendwann eine 
+*kundenspezifische Verpackung* möglich sein soll (z.B. ein 
+VIP-Kunde, der seine eigene Box-Marke wünscht).
 
 ## Eure Aufgabe
 
-1. Schaut euch `ShippingPreparation.cs` an. Was stört euch?
-2. Refactored den Code so, dass die Verantwortung für die *Auswahl 
-   und Erzeugung* der passenden Verpackung von der eigentlichen 
-   Versand-Vorbereitung getrennt ist.
-3. Implementiert die zwei fehlenden Verpackungsarten 
-   (Optiker-Holzkiste, Labor-Sterilbox).
-4. Startet `Program.cs` — drei verschiedene Aufträge sollen mit ihrer 
-   jeweils passenden Verpackung durchlaufen.
+1. Schaut euch `ShippingPreparation`, `OrderProcessor` und 
+   `InvoiceWriter` an. Findet die duplizierte Logik.
+2. Räumt diese Logik so auf, dass sie an *einer* Stelle existiert 
+   und alle drei Klassen sie nutzen.
+3. Implementiert die zwei fehlenden Verpackungs-Klassen 
+   (`ExpressSecureBox`, `ReinforcedExportCrate`).
+4. Bindet die neuen Verpackungen in eure Lösung ein.
+5. Startet `Program.cs` — alle fünf Kundentypen sollen mit der 
+   richtigen Verpackung verarbeitet werden.
 
 ## Zwänge
 
-- `ShippingPreparation` darf den Verpackungs-Typ nicht selbst 
-  per `if/else` oder `switch` auswählen
-- `ShippingPreparation` darf die konkreten Verpackungs-Klassen 
-  (Pappkarton, Holzkiste, Sterilbox) nicht direkt kennen — sie 
-  arbeitet nur mit einer Abstraktion
-- Eine neue Verpackungsart einzubauen darf das Hinzufügen *einer* 
-  neuen Klasse plus *einen* Eintrag an *einer* zentralen Stelle 
-  erfordern — mehr nicht
+- `IPackaging` und die existierenden Verpackungs-Klassen werden 
+  nicht angefasst
+- Keine Klasse außerhalb eurer Lösung soll *direkt* eine konkrete 
+  Verpackungs-Klasse instanziieren (`new PappkartonPackaging()` ist 
+  nur an einer einzigen Stelle erlaubt)
+- Die Entscheidung "welche Verpackung pro Kundentyp" steht an 
+  *genau einer* Stelle im Code
 
 ## Tipp
 
-Es gibt zwei Aspekte, die ihr trennen müsst: *welche* Verpackung 
-genommen wird (das hängt vom Kundentyp ab) und *was* eine Verpackung 
-genau tut (das ist pro Verpackung unterschiedlich). Wenn ihr beides 
-in einer Klasse mischt, baut ihr euch Probleme.
+Es geht heute nicht darum, *was* eine Verpackung tut — das ist 
+schon implementiert. Es geht darum, *wer* entscheidet, welche 
+Verpackung erzeugt wird, und wie diese Entscheidung sauber 
+zentralisiert wird.

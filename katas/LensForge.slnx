@@ -1,23 +1,34 @@
 <Solution>
+  <Folder Name="/Facade/">
+    <Project Path="../../../../../../source/repos/design-pattern-schulung/katas/Facade.Solution/Facade.Solution.csproj" Id="6a57ee16-ba64-4e39-9077-bd9aeb1f1af9" />
+    <Project Path="../../../../../../source/repos/design-pattern-schulung/katas/LensForge.Facade/LensForge.Facade.csproj" Id="86d30fc2-86b7-41f8-a0c0-ed1140209c33" />
+  </Folder>
   <Folder Name="/Kata 01/">
-    <Project Path="LensForge.Coating/LensForge.Kata01.csproj" />
-    <Project Path="LensForge.Kata01.Tests/LensForge.Kata01.Tests.csproj" Id="2c9bda6f-4829-4b97-ae18-ecb4fb42911e" />
+    <Project Path="../../../../../../source/repos/design-pattern-schulung/katas/LensForge.Coating/LensForge.Kata01.csproj" />
+    <Project Path="../../../../../../source/repos/design-pattern-schulung/katas/LensForge.Kata01.Tests/LensForge.Kata01.Tests.csproj" Id="2c9bda6f-4829-4b97-ae18-ecb4fb42911e" />
   </Folder>
   <Folder Name="/Kata 02/">
-    <Project Path="LensForge.Kata02.Tests/LensForge.Kata02.Tests.csproj" Id="b98bae15-89ba-46b5-a57e-77ff3806eeff" />
-    <Project Path="LensForge.Kata02/LensForge.Kata02.csproj" Id="9e4aaf09-ef4b-4c23-b308-a8cc1537862c" />
+    <Project Path="../../../../../../source/repos/design-pattern-schulung/katas/LensForge.Kata02.Tests/LensForge.Kata02.Tests.csproj" Id="b98bae15-89ba-46b5-a57e-77ff3806eeff" />
+    <Project Path="../../../../../../source/repos/design-pattern-schulung/katas/LensForge.Kata02/LensForge.Kata02.csproj" Id="9e4aaf09-ef4b-4c23-b308-a8cc1537862c" />
   </Folder>
   <Folder Name="/Kata 03/">
-    <Project Path="LensForge.Kata03.Tests/LensForge.Kata03.Tests.csproj" Id="e6dd3484-966d-41be-9257-44a94f6b80dc" />
-    <Project Path="LensForge.Kata03/LensForge.Kata03.csproj" Id="6abca8cf-1812-4560-a276-8af26b0d98a6" />
+    <Project Path="../../../../../../source/repos/design-pattern-schulung/katas/LensForge.Kata03.Tests/LensForge.Kata03.Tests.csproj" Id="e6dd3484-966d-41be-9257-44a94f6b80dc" />
+    <Project Path="../../../../../../source/repos/design-pattern-schulung/katas/LensForge.Kata03/LensForge.Kata03.csproj" Id="6abca8cf-1812-4560-a276-8af26b0d98a6" />
   </Folder>
   <Folder Name="/Kata 04/">
-    <Project Path="LensForge.Kata04/LensForge.Kata04.csproj" Id="81e1d671-9355-4de3-8c5d-21bc2b0b8d9c" />
+    <Project Path="../../../../../../source/repos/design-pattern-schulung/katas/LensForge.Kata04.Tests/LensForge.Kata04.Tests.csproj" Id="4d60260c-ca69-4a02-be78-f644eeb7d351" />
+    <Project Path="../../../../../../source/repos/design-pattern-schulung/katas/LensForge.Kata04/LensForge.Kata04.csproj" Id="81e1d671-9355-4de3-8c5d-21bc2b0b8d9c" />
+  </Folder>
+  <Folder Name="/Kata 05/">
+    <Project Path="../../../../../../source/repos/design-pattern-schulung/katas/LensForge.Kata05/LensForge.Kata05.csproj" Id="fe4613c3-cc72-4f11-86ab-99201b2b17cf" />
+    <Project Path="../../../../../../source/repos/design-pattern-schulung/katas/LensForge.Kata06.Tests/LensForge.Kata05.Tests.csproj" Id="9bcb7efa-2cc4-410e-880c-522c78813da1" />
   </Folder>
   <Folder Name="/Solutions/">
-    <Project Path="LensForge.Kata01.Solution/LensForge.Kata01.Solution.csproj" Id="476a6a42-4cbf-49de-85a7-2d3ca12eba76" />
-    <Project Path="LensForge.Kata02.Solution/LensForge.Kata02.Solution.csproj" Id="f13cafcc-9472-4caf-b4e7-d3039e8e20a1" />
-    <Project Path="LensForge.Kata03.Solution/LensForge.Kata03.Solution.csproj" Id="8d89db84-3bfd-4944-82dd-f054eeaf907b" />
+    <Project Path="../../../../../../source/repos/design-pattern-schulung/katas/LensForge.Kata01.Solution/LensForge.Kata01.Solution.csproj" Id="476a6a42-4cbf-49de-85a7-2d3ca12eba76" />
+    <Project Path="../../../../../../source/repos/design-pattern-schulung/katas/LensForge.Kata02.Solution/LensForge.Kata02.Solution.csproj" Id="f13cafcc-9472-4caf-b4e7-d3039e8e20a1" />
+    <Project Path="../../../../../../source/repos/design-pattern-schulung/katas/LensForge.Kata03.Solution/LensForge.Kata03.Solution.csproj" Id="8d89db84-3bfd-4944-82dd-f054eeaf907b" />
+    <Project Path="../../../../../../source/repos/design-pattern-schulung/katas/LensForge.Kata04.Solution/LensForge.Kata04.Solution.csproj" Id="075e25ea-a752-491a-87e9-a1a898a96b28" />
+    <Project Path="../../../../../../source/repos/design-pattern-schulung/katas/LensForge.Kata05.Solution/LensForge.Kata05.Solution.csproj" Id="e94c2673-fe49-4db3-a9f7-f203db0e0680" />
   </Folder>
-  <Project Path="LensForge.Shared/LensForge.Shared.csproj" />
+  <Project Path="../../../../../../source/repos/design-pattern-schulung/katas/LensForge.Shared/LensForge.Shared.csproj" />
 </Solution>
