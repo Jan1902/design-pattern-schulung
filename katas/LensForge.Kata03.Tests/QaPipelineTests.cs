@@ -19,7 +19,7 @@ public class QaPipelineTests
     public void CustomerB_PerformsThreeChecks()
     {
         var inspector = BuildInspectorForCustomerB();
-        var lens = new Lens("L-T02", LensType.Standard, 56);
+        var lens = new Lens("L-T02", LensType.Standard, 50); // keine Prüfung löst hier einen Defekt aus
 
         var report = inspector.Inspect(lens);
 
@@ -30,7 +30,7 @@ public class QaPipelineTests
     public void CustomerC_PerformsFourChecks()
     {
         var inspector = BuildInspectorForCustomerC();
-        var lens = new Lens("L-T03", LensType.Photochromic, 48);
+        var lens = new Lens("L-T03", LensType.Photochromic, 50); // keine Prüfung löst hier einen Defekt aus
 
         var report = inspector.Inspect(lens);
 

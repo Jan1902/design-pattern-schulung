@@ -28,10 +28,25 @@ Aktuell wird `ProductionLogger` an verschiedenen Stellen einfach mit `new Produc
 ## Zwänge
 
 - Es darf zur Laufzeit nur **genau eine** `ProductionLogger`-Instanz existieren
-- Der Logger soll für Unit-Tests durch einen InMemoryLogger ersetzt werden können, der die Log-Einträge in einer Liste sammelt statt sie auszugeben.
 - Aufrufer dürfen den Logger nicht per `new ProductionLogger()` selbst erzeugen
 - Wenn die Werksleitung das Log-Level ändert, muss diese Änderung *sofort überall* greifen
 - Der Logger muss **thread-safe** sein — mehrere Module könnten parallel loggen wollen
+
+## Testbarkeit
+
+Das Interface `ILogger` ist bereits vorgegeben. Eure Module sollen es nach dem Refactoring intern nutzen — also `ILogger` statt direkt `ProductionLogger` referenzieren. Das ermöglicht euch, im Test einen `InMemoryLogger` einzusetzen, der Log-Einträge in einer Liste sammelt statt sie auszugeben, ohne die Produktions-Klassen zu berühren.
+
+```csharp
+// Beispiel für einen InMemoryLogger im Test:
+class InMemoryLogger : ILogger
+{
+    public LogLevel MinimumLevel { get; set; } = LogLevel.Info;
+    public List<string> Entries { get; } = [];
+    public void Info(string source, string message) => Entries.Add($"[Info] {message}");
+    public void Warning(string source, string message) => Entries.Add($"[Warning] {message}");
+    public void Error(string source, string message) => Entries.Add($"[Error] {message}");
+}
+```
 
 ## Tipp
 

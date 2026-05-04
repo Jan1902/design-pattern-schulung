@@ -25,7 +25,7 @@ Drei Kunden haben in den letzten Wochen unterschiedliche zusätzliche Prüfungen
 
 Wichtig:
 - Welche Prüfungen kombiniert werden, ist von Auftrag zu Auftrag unterschiedlich. Ein Kunde könnte morgen schon eine vierte Kombination verlangen.
-- Die Schlagfestigkeitsprüfung ist sehr aufwendig, weshalb sie NICHT durchgeführt werden soll, wenn bereits eine andere Prüfung einen Defekt festgestellt hat. (Die anderen Prüfungen sind schnell und können auch bei einem Defekt weiterlaufen, um möglichst viele Informationen zu sammeln.)
+- Die Schlagfestigkeitsprüfung ist sehr aufwendig, weshalb sie **NICHT** durchgeführt werden soll, wenn bereits eine andere Prüfung einen Defekt festgestellt hat. (Die anderen Prüfungen sind schnell und können auch bei einem Defekt weiterlaufen, um möglichst viele Informationen zu sammeln.)
 
 ## Was die einzelnen Prüfungen tun sollen
 
@@ -40,6 +40,7 @@ Damit ihr nicht über die Details der Logik nachdenken müsst, hier die fachlich
 - Drop-Ball-Test: Stahlkugel fällt aus 1,27m auf die Linse (FDA-Standard)
 - Fehlerfall: Standard-Linsen mit Durchmesser über 55mm bekommen Mikrorisse
 - Defekt-Meldung: "Mikroriss nach Drop-Ball-Test"
+- **Wird übersprungen**, wenn bereits ein Defekt im Bericht steht
 
 ### UV-Durchlässigkeitsmessung
 - Spektrometer-Messung der UV-Transmission
@@ -63,3 +64,7 @@ Damit ihr nicht über die Details der Logik nachdenken müsst, hier die fachlich
 ## Tipp
 
 Wenn ihr darüber nachdenkt, eine `SuperQaInspector`-Klasse zu bauen, die alle möglichen Prüfungen kennt und per Konfiguration ein- und ausschaltet — haltet inne. Das wäre Strategy mit zu vielen Kontrollen am falschen Ort. Heute geht's um *Komposition*: Wie könnt ihr Prüfungen *aufeinander stapeln*?
+
+## Diskussionsfrage zur Reihenfolge
+
+Wenn ihr eure Prüfungen zusammensteckt: Spielt die Reihenfolge eine Rolle? Denkt dabei an die Schlagfestigkeitsprüfung und ihre Skip-Bedingung — welche anderen Prüfungen müssen *vor* ihr gelaufen sein, damit die Skip-Logik fachlich sinnvoll ist?
