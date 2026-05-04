@@ -25,7 +25,7 @@ Außerdem hat sich der QA-Bereich beschwert: Die aktuelle Implementierung ist sc
 ## Zwänge
 
 - Die `ApplyCoating`-Methode der `CoatingStation` darf nach eurem Refactoring **nicht länger als 10 Zeilen** sein.
-- Neue Coating-Verfahren dürfen den bestehenden Code der bereits vorhandenen Verfahren nicht anfassen.
+- Für neue Coating-Verfahren keine Veränderung der bestehenden Coating-Verfahren oder der ApplyCoating-Methode notwendig sein (Open-Closed-Prinzip).
 - Jedes Coating-Verfahren soll **isoliert testbar** sein (ein Test pro Verfahren, ohne dass die Station gemockt werden muss).
 
 ## Hinweis zur Strategie-Registrierung
