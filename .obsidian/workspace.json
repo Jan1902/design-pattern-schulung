@@ -11,12 +11,12 @@
             "id": "166c2a5e935bb761",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "excalidraw",
               "state": {
-                "file": "adesso Unterlagen/KI-Illustrationen für Self-Learnings.pdf"
+                "file": "Resources/diagrams/command.md"
               },
-              "icon": "lucide-file-text",
-              "title": "KI-Illustrationen für Self-Learnings"
+              "icon": "excalidraw-icon",
+              "title": "command"
             }
           }
         ]
@@ -197,18 +197,24 @@
   },
   "active": "166c2a5e935bb761",
   "lastOpenFiles": [
+    "Resources/diagrams/observer.md",
+    "pptFC8D.tmp",
+    "ppt7A0E.tmp",
+    "ppt4F34.tmp",
+    "Resources/diagrams/facade.md",
+    "Resources/diagrams/facade before.md",
+    "Resources/diagrams/facade before.png",
+    "Resources/diagrams/strategy.md",
+    "adesso Unterlagen/KI-Illustrationen für Self-Learnings.pdf",
+    "katas/DiContainerDemo/obj/Debug/net10.0/DiContainerDemo.csproj.FileListAbsolute.txt",
+    "katas/DiContainerDemo/bin/Debug/net10.0/DiContainerDemo.pdb",
+    "katas/DiContainerDemo/obj/Debug/net10.0/ref/DiContainerDemo.dll",
+    "katas/DiContainerDemo/bin/Debug/net10.0/DiContainerDemo.dll",
+    "katas/DiContainerDemo/bin/Debug/net10.0/DiContainerDemo.runtimeconfig.json",
+    "katas/DiContainerDemo/obj/Debug/net10.0/DiContainerDemo.genruntimeconfig.cache",
+    "Resources/images/strategy_pattern.png",
     "Resources/images/ChatGPT Image 4. Mai 2026, 14_11_02.png",
-    "katas/ModernWebApiDemo/Notifications/IOrderEventHandler.cs",
-    "katas/ModernWebApiDemo/obj/Debug/net10.0/ModernWebApiDemo.csproj.BuildWithSkipAnalyzers",
-    "adesso Unterlagen/Artikel - Körpersprache souverän einsetzen.pdf",
-    "adesso Unterlagen/adessoGPT-Trainercommunity.pdf",
     "Notizen/Ablauf.md",
-    "katas/ModernWebApiDemo/Demos/OrderBuilder.cs",
-    "katas/ModernWebApiDemo/Demos",
-    "katas/ModernWebApiDemo/NewFolder",
-    "katas/ModernWebApiDemo/Services/Orders/IOrderEventPublisher.cs",
-    "katas/ModernWebApiDemo/Services/Orders/OrderPlacedEventArgs.cs",
-    "katas/ModernWebApiDemo/obj/Debug/net10.0/ApiEndpoints.json",
     "katas/LensForge.Kata05/README.md",
     "katas/LensForge.Kata04/README.md",
     "katas/LensForge.Kata03/README.md",
@@ -223,25 +229,18 @@
     "Resources/images/ChatGPT Image 3. Mai 2026, 13_35_16.png",
     "Resources/code/second try/src/Simulation.Rendering/bin/Debug/net10.0/assets/sprites/station_factory.png",
     "Resources/code/second try/assets/sprites/station_factory.png",
-    "Resources/code/second try/assets/sprites/ChatGPT Image 3. Mai 2026, 13_11_27.png",
     "Resources/code/second try/assets/sprites/prompts/station_factory.md",
-    "Resources/code/second try/src/Simulation.Rendering/bin/Debug/net10.0/assets/sprites/conveyor_tile_old.png",
-    "Resources/code/second try/src/Simulation.Rendering/bin/Debug/net10.0/assets/sprites/lens_finished.png",
     "Notizen/Vorgehensweise.md",
     "Notizen/Wichtige Inhalte.md",
     "Resources/diagrams/command.md",
     "Resources/diagrams/abstract factory.md",
     "Resources/diagrams/command modern.md",
     "Resources/diagrams/adapter abstraction.md",
-    "Resources/diagrams/strategy.md",
     "Resources/diagrams/singleton.md",
-    "Resources/diagrams/observer.md",
-    "Resources/diagrams/facade.md",
     "Resources/code/skills/domain.md",
     "Resources/code/second try/docs/KATA_BRIEFING.md",
     "Resources/code/second try/docs/ARCHITECTURE.md",
     "Resources/code/second try/assets/sprites/prompts/machine_frame.md",
-    "Resources/code/second try/assets/sprites/prompts/icon_strategy_set.md",
-    "Resources/code/second try/assets/sprites/prompts/icon_command_queue.md"
+    "Resources/code/second try/assets/sprites/prompts/icon_strategy_set.md"
   ]
 }

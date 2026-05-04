@@ -12,7 +12,7 @@
     <Project Path="LensForge.Shared/LensForge.Shared.csproj" />
   </Folder>
   <Folder Name="/Katas/Kata 01/">
-    <Project Path="LensForge.Coating/LensForge.Kata01.csproj" />
+    <Project Path="LensForge.Kata01/LensForge.Kata01.csproj" />
     <Project Path="LensForge.Kata01.Tests/LensForge.Kata01.Tests.csproj" Id="2c9bda6f-4829-4b97-ae18-ecb4fb42911e" />
   </Folder>
   <Folder Name="/Katas/Kata 02/">

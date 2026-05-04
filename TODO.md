@@ -1,6 +1,0 @@
-- [ ] Zeitplan finalisieren
-- [ ] Reflexion mit Niklas
-- [ ] echolot Quizz
-- [ ] Powerpoint finalisieren
-- [ ] Simulation App bauen
-- [ ] Diagramme vervollständigen

@@ -1,6 +1,0 @@
-- 1,5 Tage in Präsenz
-	- 0,5 Tage Rückblick auf vorherige SOLID Schulung
-- Zielgruppe sind Junior Devs und Werkstudenten
-- Gruppengröße 9 Personen
-- Bereits vorherhige Schulungen aus Entwicklerqualizifierungsprogramm absolviert
-- 
