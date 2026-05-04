@@ -11,14 +11,12 @@
             "id": "166c2a5e935bb761",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Notizen/Ablauf.md",
-                "mode": "source",
-                "source": false
+                "file": "adesso Unterlagen/KI-Illustrationen für Self-Learnings.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Ablauf"
+              "icon": "lucide-file-text",
+              "title": "KI-Illustrationen für Self-Learnings"
             }
           }
         ]
@@ -199,17 +197,24 @@
   },
   "active": "166c2a5e935bb761",
   "lastOpenFiles": [
-    "katas/LensForge.slnx",
-    "katas/katas.slnx",
-    "katas/LensForge.Shared/obj/LensForge.Shared.csproj.nuget.dgspec.json",
-    "katas/LensForge.Shared/obj/367c20e2-66b8-46d6-98c3-bbb90f57602f.tmp",
-    "katas/LensForge.Shared/obj/project.nuget.cache",
-    "katas/LensForge.Shared/obj/95768113-b678-4faa-9f3c-0a212d8cc239.tmp",
-    "katas/LensForge.Shared/obj/project.assets.json",
-    "katas/LensForge.Shared/obj/LensForge.Shared.csproj.nuget.g.targets",
-    "katas/LensForge.Shared/obj/LensForge.Shared.csproj.nuget.g.props",
-    "katas/LensForge.Shared/obj",
-    "katas/LensForge.Shared/LensForge.Shared.csproj",
+    "Resources/images/ChatGPT Image 4. Mai 2026, 14_11_02.png",
+    "katas/ModernWebApiDemo/Notifications/IOrderEventHandler.cs",
+    "katas/ModernWebApiDemo/obj/Debug/net10.0/ModernWebApiDemo.csproj.BuildWithSkipAnalyzers",
+    "adesso Unterlagen/Artikel - Körpersprache souverän einsetzen.pdf",
+    "adesso Unterlagen/adessoGPT-Trainercommunity.pdf",
+    "Notizen/Ablauf.md",
+    "katas/ModernWebApiDemo/Demos/OrderBuilder.cs",
+    "katas/ModernWebApiDemo/Demos",
+    "katas/ModernWebApiDemo/NewFolder",
+    "katas/ModernWebApiDemo/Services/Orders/IOrderEventPublisher.cs",
+    "katas/ModernWebApiDemo/Services/Orders/OrderPlacedEventArgs.cs",
+    "katas/ModernWebApiDemo/obj/Debug/net10.0/ApiEndpoints.json",
+    "katas/LensForge.Kata05/README.md",
+    "katas/LensForge.Kata04/README.md",
+    "katas/LensForge.Kata03/README.md",
+    "katas/README.md",
+    "katas/LensForge.Kata02/README.md",
+    "katas/LensForge.Coating/README.md",
     "Resources/code/second try/katas/solutions/Kata.09.Strategy.solution.md",
     "Resources/images/vocabulary.png",
     "Resources/images/ChatGPT Image 3. Mai 2026, 13_52_45.png",
@@ -223,7 +228,6 @@
     "Resources/code/second try/src/Simulation.Rendering/bin/Debug/net10.0/assets/sprites/conveyor_tile_old.png",
     "Resources/code/second try/src/Simulation.Rendering/bin/Debug/net10.0/assets/sprites/lens_finished.png",
     "Notizen/Vorgehensweise.md",
-    "Notizen/Ablauf.md",
     "Notizen/Wichtige Inhalte.md",
     "Resources/diagrams/command.md",
     "Resources/diagrams/abstract factory.md",
@@ -238,12 +242,6 @@
     "Resources/code/second try/docs/ARCHITECTURE.md",
     "Resources/code/second try/assets/sprites/prompts/machine_frame.md",
     "Resources/code/second try/assets/sprites/prompts/icon_strategy_set.md",
-    "Resources/code/second try/assets/sprites/prompts/icon_command_queue.md",
-    "Resources/code/second try/assets/sprites/prompts/icon_warning.md",
-    "Resources/code/second try/assets/sprites/prompts/effect_scanline.md",
-    "Resources/code/second try/assets/sprites/prompts/effect_glow.md",
-    "Resources/code/second try/assets/sprites/prompts/effect_sparks.md",
-    "Resources/code/second try/assets/sprites/prompts/lens_rejected.md",
-    "Resources/code/second try/assets/sprites/prompts/lens_finished.md"
+    "Resources/code/second try/assets/sprites/prompts/icon_command_queue.md"
   ]
 }

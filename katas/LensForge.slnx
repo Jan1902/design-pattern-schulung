@@ -5,6 +5,7 @@
     <Project Path="LensForge.Facade/LensForge.Facade.csproj" Id="86d30fc2-86b7-41f8-a0c0-ed1140209c33" />
   </Folder>
   <Folder Name="/Demos/Modern/">
+    <Project Path="DiContainerDemo/DiContainerDemo.csproj" Id="1f97919d-469e-4aed-ab0e-9ff2716dd392" />
     <Project Path="ModernWebApiDemo/ModernWebApiDemo.csproj" Id="944b4c48-ab47-4a23-8e04-8d8e76411f3b" />
   </Folder>
   <Folder Name="/Katas/">
