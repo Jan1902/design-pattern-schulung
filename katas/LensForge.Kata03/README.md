@@ -23,7 +23,9 @@ Drei Kunden haben in den letzten Wochen unterschiedliche zusätzliche Prüfungen
 
 - **Kunde C** (medizinisches Gerätegeschäft): Braucht alle drei Zusatzprüfungen *plus* die Standard-Sichtprüfung — und alles muss sauber im Bericht dokumentiert sein für die FDA.
 
-Wichtig: Welche Prüfungen kombiniert werden, ist von Auftrag zu Auftrag unterschiedlich. Ein Kunde könnte morgen schon eine vierte Kombination verlangen.
+Wichtig:
+- Welche Prüfungen kombiniert werden, ist von Auftrag zu Auftrag unterschiedlich. Ein Kunde könnte morgen schon eine vierte Kombination verlangen.
+- Die Schlagfestigkeitsprüfung ist sehr aufwendig, weshalb sie NICHT durchgeführt werden soll, wenn bereits eine andere Prüfung einen Defekt festgestellt hat. (Die anderen Prüfungen sind schnell und können auch bei einem Defekt weiterlaufen, um möglichst viele Informationen zu sammeln.)
 
 ## Was die einzelnen Prüfungen tun sollen
 

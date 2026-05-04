@@ -1,4 +1,4 @@
-﻿using LensForge.Coating;
+﻿using LensForge.Kata01;
 using LensForge.Shared;
 
 Vis.Header("LensForge — Coating-Modul Demo");

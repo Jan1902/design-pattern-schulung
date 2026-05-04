@@ -13,7 +13,7 @@ Das Produktteam hat heute zwei neue Coating-Verfahren angekündigt, die nächste
 - **Blue-Light-Filter** (Standard und Premium — unterscheiden sich in der Auftragsdauer und in der erforderlichen Mindestintensität)
 - **Mirror-Coating** (verspiegelte Sonnenbrillen-Optik)
 
-Außerdem hat sich der Marketing-Bereich beschwert: Die aktuelle Implementierung ist schwer zu testen, und neue Verfahren einzubauen dauert immer länger.
+Außerdem hat sich der QA-Bereich beschwert: Die aktuelle Implementierung ist schwer zu testen, und neue Verfahren einzubauen dauert immer länger.
 
 ## Eure Aufgabe
 
@@ -30,7 +30,7 @@ Außerdem hat sich der Marketing-Bereich beschwert: Die aktuelle Implementierung
 
 ## Hinweis zur Strategie-Registrierung
 
-Wo werden die einzelnen Coating-Verfahren der Station bekannt gemacht? Diskutiert das im Pair, bevor ihr anfangt. Eine einfache Möglichkeit: Im Konstruktor der Station selbst. Es gibt elegantere Wege — die schauen wir uns am Tag 2 an. Heute reicht eine pragmatische Lösung.
+Wo werden die einzelnen Coating-Verfahren der Station festgelegt? Diskutiert das im Pair, bevor ihr anfangt. Eine einfache Möglichkeit: Im Konstruktor der Station selbst. Es gibt elegantere Wege — die schauen wir uns am Tag 2 an. Heute reicht eine pragmatische Lösung.
 
 ## Tipp
 

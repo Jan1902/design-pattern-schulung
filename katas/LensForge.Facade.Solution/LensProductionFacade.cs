@@ -1,7 +1,7 @@
 ﻿using LensForge.Facade;
 using LensForge.Shared;
 
-namespace Facade.Solution;
+namespace LensForge.Facade.Solution;
 
 public class LensProductionFacade
 {

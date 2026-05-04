@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LensForge.Coating\LensForge.Kata01.csproj" />
+    <ProjectReference Include="..\LensForge.Kata01\LensForge.Kata01.csproj" />
   </ItemGroup>
 
   <ItemGroup>

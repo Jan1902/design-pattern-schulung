@@ -38,4 +38,7 @@
     <Project Path="LensForge.Kata04.Solution/LensForge.Kata04.Solution.csproj" Id="075e25ea-a752-491a-87e9-a1a898a96b28" />
     <Project Path="LensForge.Kata05.Solution/LensForge.Kata05.Solution.csproj" Id="e94c2673-fe49-4db3-a9f7-f203db0e0680" />
   </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
 </Solution>

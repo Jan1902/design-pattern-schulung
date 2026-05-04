@@ -15,6 +15,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\LensForge.Kata05\LensForge.Kata05.csproj" />
+    <ProjectReference Include="..\LensForge.Shared\LensForge.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
 

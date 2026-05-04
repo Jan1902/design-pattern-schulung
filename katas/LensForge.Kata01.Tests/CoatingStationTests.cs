@@ -1,5 +1,4 @@
-﻿using LensForge.Coating;
-using LensForge.Shared;
+﻿using LensForge.Shared;
 
 namespace LensForge.Kata01.Tests;
 

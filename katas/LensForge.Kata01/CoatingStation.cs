@@ -1,6 +1,6 @@
 using LensForge.Shared;
 
-namespace LensForge.Coating;
+namespace LensForge.Kata01;
 
 public class CoatingStation
 {

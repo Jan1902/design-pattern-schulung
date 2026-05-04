@@ -26,7 +26,7 @@ Das Problem: Die Legacy-Maschine hat eine völlig andere API. Sie kennt weder `I
 2. Schaut euch `ProductionLine.cs` an. Auch diese Datei sollt ihr **nicht anfassen** — sie funktioniert für die anderen Stationen ja einwandfrei.
 3. Findet einen Weg, die Legacy-Maschine in die `ProductionLine` einzubauen.
 4. Startet `Program.cs` — die Legacy-Maschine soll als ganz normale Station in der Linie laufen.
-5. Schreibt mindestens zwei Tests, die euer Refactoring absichern.
+5. Schreibt Tests, die euer Refactoring absichern.
 
 ## Zwänge
 

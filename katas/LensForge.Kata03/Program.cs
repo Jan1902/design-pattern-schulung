@@ -44,6 +44,5 @@ static void RunInspection(IQaInspector inspector, Lens lens, string customer)
             Vis.Step("QA", $"  ✗ {defect}");
     }
 
-    Vis.Result("QA gesamt", report.Passed,
-               report.Passed ? null : "Linse hat QA nicht bestanden");
+    Vis.Result("QA gesamt", report.Passed, report.Passed ? null : "Linse hat QA nicht bestanden");
 }
