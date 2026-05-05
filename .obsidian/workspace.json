@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "50a333fde6d1fe65",
+        "id": "cec678b123dfe3ed",
         "type": "tabs",
         "children": [
           {
-            "id": "166c2a5e935bb761",
+            "id": "c1e455a886dce02a",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Resources/diagrams/command.md"
+                "file": "Resources/diagrams/simple factory.md"
               },
               "icon": "excalidraw-icon",
-              "title": "command"
+              "title": "simple factory"
             }
           }
         ]
@@ -195,19 +195,24 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "166c2a5e935bb761",
+  "active": "c1e455a886dce02a",
   "lastOpenFiles": [
-    "katas/LensForge.Facade.Solution/obj/Debug/net10.0/ref/LensForge.Facade.Solution.dll",
-    "katas/LensForge.Kata06.Tests/obj/Debug/net10.0/LensForge.Kata05.Tests.genruntimeconfig.cache",
-    "katas/LensForge.Facade.Solution/bin/Debug/net10.0/LensForge.Facade.Solution.dll",
-    "katas/LensForge.Facade.Solution/bin/Debug/net10.0/LensForge.Facade.Solution.deps.json",
-    "katas/LensForge.Kata04.Tests/bin/Debug/net10.0/LensForge.Kata04.Tests.pdb",
-    "katas/LensForge.Facade.Solution/bin/Debug/net10.0/LensForge.Facade.dll",
-    "katas/LensForge.Facade.Solution/bin/Debug/net10.0/LensForge.Shared.dll",
-    "katas/LensForge.Kata04.Tests/obj/Debug/net10.0/LensForge.Kata04.Tests.genruntimeconfig.cache",
-    "katas/LensForge.Facade.Solution/obj/Debug/net10.0/refint/LensForge.Facade.Solution.dll",
-    "katas/LensForge.Facade.Solution/obj/Debug/net10.0/LensForge.Facade.Solution.dll",
-    "katas/LensForge.Facade.Solution/bin/Debug/net10.0/LensForge.Facade.runtimeconfig.json",
+    "Resources/diagrams/simple factory.png",
+    "Resources/diagrams/observer.png",
+    "Resources/diagrams/simple factory.md",
+    "Resources/diagrams/abstract factory.md",
+    "Resources/diagrams/command.md",
+    "ppt5F3B.tmp",
+    "pptB436.tmp",
+    "pptE0C8.tmp",
+    "katas/$null",
+    "katas/LensForge.Kata01/obj/Debug/net10.0/LensForge.Kata01.csproj.BuildWithSkipAnalyzers",
+    "pptC2DB.tmp",
+    "ppt8F23.tmp",
+    "ppt1B92.tmp",
+    "ppt588C.tmp",
+    "katas/LensForge.Kata06.Solution/obj/Debug/net10.0/LensForge.Kata06.Solution.csproj.AssemblyReference.cache",
+    "katas/LensForge.Kata06/README.md",
     "Notizen/Rahmenbedingungen.md",
     "Notizen/TODO.md",
     "Notizen/Start.md",
@@ -233,15 +238,10 @@
     "Resources/images/observer_pattern.png",
     "Resources/images/ChatGPT Image 3. Mai 2026, 13_35_16.png",
     "Resources/code/second try/src/Simulation.Rendering/bin/Debug/net10.0/assets/sprites/station_factory.png",
-    "Resources/code/second try/assets/sprites/station_factory.png",
     "Resources/code/second try/assets/sprites/prompts/station_factory.md",
     "Notizen/Vorgehensweise.md",
     "Notizen/Wichtige Inhalte.md",
-    "Resources/diagrams/command.md",
-    "Resources/diagrams/abstract factory.md",
     "Resources/diagrams/command modern.md",
-    "Resources/diagrams/adapter abstraction.md",
-    "Resources/diagrams/singleton.md",
-    "Resources/code/skills/domain.md"
+    "Resources/diagrams/adapter abstraction.md"
   ]
 }
