@@ -28,7 +28,7 @@ Außerdem hat sich der QA-Bereich beschwert: Die aktuelle Implementierung ist sc
 - Für neue Coating-Verfahren keine Veränderung der bestehenden Coating-Verfahren oder der ApplyCoating-Methode notwendig sein (Open-Closed-Prinzip).
 - Jedes Coating-Verfahren soll **isoliert testbar** sein (ein Test pro Verfahren, ohne dass die Station gemockt werden muss).
 
-## Hinweis zur Strategie-Registrierung
+## Hinweis zur Beschichtungs-Registrierung
 
 Wo werden die einzelnen Coating-Verfahren der Station festgelegt? Diskutiert das im Pair, bevor ihr anfangt. Eine einfache Möglichkeit: Im Konstruktor der Station selbst. Es gibt elegantere Wege — die schauen wir uns am Tag 2 an. Heute reicht eine pragmatische Lösung.
 
