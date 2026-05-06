@@ -51,6 +51,8 @@ public class LoggerTests
         //  Beobachtung des Outputs.)
     }
 
+    // TODO: Schreibt einen Test, der prüft, ob die Komponenten tatsächlich Logs schreiben. Dafür ist der InMemoryLogger gedacht
+
     // TODO: Diese Methode müsst ihr nach eurem Refactor sinnvoll füllen.
     //       Sie soll auf die geteilte Logger-Instanz zugreifen.
     private ProductionLogger GetLogger()

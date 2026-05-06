@@ -29,10 +29,8 @@ maintenance.RunDiagnostics();
 Vis.Separator();
 Vis.Step("Demo", "Schaut in die production.log — wie viele Datei-Handles wurden geöffnet?");
 
-// Nach eurem Refactor: setzt das LogLevel auf Warning. 
+// Nach eurem Refactor: setzt das LogLevel HIER zentral auf Warning. 
 // Alle Module sollen ab jetzt nur noch Warnings und Errors loggen.
-//
-// Logger.Instance.MinimumLevel = LogLevel.Warning;
 //
 // Vis.Separator();
 // Vis.Step("Demo", "Zweiter Lauf mit MinimumLevel = Warning");

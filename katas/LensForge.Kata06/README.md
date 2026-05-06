@@ -12,25 +12,32 @@ Aktuell ist die `MachineController`-Klasse für all das selbst zuständig. Sie r
 
 ## Neue Anforderung
 
-Die Werksleitung möchte eine neue Komponente einführen: einen **EmergencyShutdownHandler**, der bei einem Wechsel in den Fehlerzustand automatisch alle Subsysteme herunterfährt. Außerdem soll der AuditLogger zukünftig optional ein- und ausschaltbar sein (z.B. für Wartungsphasen).
+Die Werksleitung möchte eine neue Komponente einführen: einen **EmergencyShutdownHandler**, der bei einem Wechsel in den Fehlerzustand automatisch den MachineController herunterfahren lässt. Außerdem soll der AuditLogger zukünftig optional ein- und ausschaltbar sein (z.B. für Wartungsphasen).
 
 ## Eure Aufgabe
 
 1. Refactored den `MachineController` so, dass er die einzelnen Komponenten nicht mehr direkt kennt
-2. Stellt sicher, dass Komponenten sich zur Laufzeit registrieren und abmelden können
+2. Stellt sicher, dass Komponenten sich zur Laufzeit registrieren und abmelden könnten
 3. Implementiert den neuen `EmergencyShutdownHandler`
 4. Ergänzt einen Test, der die Reaktion des EmergencyShutdownHandlers auf einen Fehlerzustand überprüft
 5. Ergänzt einen Test, der die An- und Abmeldung des AuditLoggers überprüft — wenn er abgemeldet ist, soll er keine Einträge mehr schreiben
 6. Startet `Program.cs` — die Maschine soll durch alle Zustände wandern, und alle Komponenten sollen entsprechend reagieren
 
-Der Inhalt des EmergencyShutdownHandler ist nicht wichtig. Er könnte z.B. so aussehen:
+Der `EmergencyShutdownHandler` könnte z.B. so aussehen:
 ```csharp
 class EmergencyShutdownHandler
 {
+    public EmergencyShutdownHandler(MachineController controller)
+    {
+        // ...
+    }
+
+    // ...
+
     public void OnErrorState()
     {
         Console.WriteLine("Emergency shutdown initiated!");
-        // Hier würden die tatsächlichen Shutdown-Logiken stehen
+        // ....
     }
 }
 ```

@@ -3,13 +3,8 @@ using LensForge.Shared;
 
 Console.WriteLine("=== LensForge — Maschinen-Statusüberwachung ===\n");
 
-// TODO: Nach eurem Refactoring werden die Komponenten hier
-//       angemeldet, statt sie dem Controller direkt zu übergeben.
-//
-//   var controller = new MachineController();
-//   controller.Subscribe(new DisplayUnit().UpdateStatus);
-//   ... usw.
-
+// TODO: Nach eurem refactoring soll der MachineController hier keine Instanzen der zu benachrichtigenden Komponenten mehr erhalten.
+// Vielleicht umgekehrt?
 var controller = new MachineController(
     new DisplayUnit(),
     new AuditLogger(),
