@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
+using ModernWebApiDemo;
 using ModernWebApiDemo.Data;
 using ModernWebApiDemo.Filters;
 using ModernWebApiDemo.Middleware;
-using ModernWebApiDemo.Notifications;
 using ModernWebApiDemo.Services.Clock;
 using ModernWebApiDemo.Services.Customers;
 using ModernWebApiDemo.Services.Orders;
@@ -33,9 +33,10 @@ builder.Services.AddScoped<IPricingStrategy, BulkDiscountPricing>();
 builder.Services.AddScoped<IPricingStrategy, PremiumCustomerPricing>();
 
 // Observer via DI: gleiches Prinzip für Event-Handler
-builder.Services.AddScoped<IOrderEventHandler, EmailOrderNotifier>();
-builder.Services.AddScoped<IOrderEventHandler, SlackOrderNotifier>();
-builder.Services.AddScoped<IOrderEventHandler, AuditLogNotifier>();
+//builder.Services.AddScoped<IOrderEventHandler, EmailOrderNotifier>();
+//builder.Services.AddScoped<IOrderEventHandler, SlackOrderNotifier>();
+//builder.Services.AddScoped<IOrderEventHandler, AuditLogNotifier>();
+builder.Services.AddOrderEventHandlersFromAssembly(typeof(Program));
 
 var app = builder.Build();
 
