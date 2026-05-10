@@ -16,7 +16,7 @@ Die Werksleitung möchte eine neue Komponente einführen: einen **EmergencyShutd
 
 ## Eure Aufgabe
 
-1. Refactored den `MachineController` so, dass er die einzelnen Komponenten nicht mehr direkt kennt
+1. Refactored den `MachineController` so, dass er die einzelnen Komponenten nicht mehr direkt kennt. (D.h. keine direkten Aufrufe mehr im Controller. Abstrahiert von außen reingeben ist erlaubt!)
 2. Stellt sicher, dass Komponenten sich zur Laufzeit registrieren und abmelden könnten
 3. Implementiert den neuen `EmergencyShutdownHandler`
 4. Ergänzt einen Test, der die Reaktion des EmergencyShutdownHandlers auf einen Fehlerzustand überprüft
@@ -50,4 +50,5 @@ class EmergencyShutdownHandler
 
 ## Tipp
 
-Es geht heute um die Idee: *"Jemand kündigt eine Änderung an, viele hören zu — wer will."* Wer zuhört, entscheidet er selbst.
+- Es geht heute um die Idee: *"Jemand kündigt eine Änderung an, viele hören zu — wer will."* Wer zuhört, entscheidet er selbst.
+- Es gibt mehrere Wege, das umzusetzen. Es sind alle erlaubt, die den o.g. Zwängen genügen. Diskutiert im Pair, welche Variante ihr wählt und warum. Es gibt kein "richtig" oder "falsch" — es geht um die Prinzipien dahinter!

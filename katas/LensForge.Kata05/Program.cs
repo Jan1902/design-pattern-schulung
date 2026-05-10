@@ -40,3 +40,5 @@ Vis.Step("Demo", "Schaut in die production.log — wie viele Datei-Handles wurde
 //     assembly.ProcessLens(lens);   // sollte still bleiben
 //     quality.Check(lens);          // nur Errors loggen
 // }
+//
+// maintenance.RunDiagnostics(); // sollte nur die Warning loggen

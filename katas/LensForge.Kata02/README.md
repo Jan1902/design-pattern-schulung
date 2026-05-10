@@ -36,4 +36,5 @@ Das Problem: Die Legacy-Maschine hat eine völlig andere API. Sie kennt weder `I
 
 ## Tipp
 
-Wenn ihr das Gefühl habt, das Problem ließe sich nur lösen, indem ihr eine der "verbotenen" Dateien ändert — diskutiert kurz im Pair, warum das vermutlich keine gute Idee ist. (In der Realität würdet ihr nicht die DLL des Herstellers patchen, oder?)
+- Es ist nicht unüblich, dass APIs von Drittanbietern nicht perfekt zum eigenen Code passen. Oft muss man sich dann überlegen, wie mit fehlenden oder unpassenden Daten umzugehen ist. Überlegt euch, welche Daten ihr ggf. für die Legacy-Maschine "erfinden", "ableiten" oder auch leer lassen müsst.
+- Wenn ihr das Gefühl habt, das Problem ließe sich nur lösen, indem ihr eine der "verbotenen" Dateien ändert — diskutiert kurz im Pair, warum das vermutlich keine gute Idee ist. (In der Realität würdet ihr nicht die DLL des Herstellers patchen, oder?)

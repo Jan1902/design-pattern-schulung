@@ -7,9 +7,8 @@ Vis.Header("LensForge — QA-Pipeline Demo");
 // Kunde B: Standard + Schlagfestigkeit + UV-Durchlässigkeit
 // Kunde C: Standard + alle drei Zusatzprüfungen
 
-// TODO: Baut hier die drei Inspector-Konfigurationen auf.
-//       Stellt sicher, dass jede Konfiguration die gewünschten
-//       Prüfungen enthält.
+// TODO: Baut hier die drei Inspector-Konstellationen auf.
+//       Stellt sicher, dass jede Konfiguration die gewünschten Prüfungen enthält.
 //
 // IQaInspector inspectorA = ???;
 // IQaInspector inspectorB = ???;
